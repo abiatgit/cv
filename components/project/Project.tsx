@@ -13,9 +13,9 @@ const Project = () => {
             {" "}
             CareHome Management App
           </p>
-          <Badge asChild className=" bg-red-800 px-2 py-0.2 text-xs rounded-md">
+          <Badge  className="bg-rose-100 text-rose-600 hover:bg-rose-300 px-2 py-0.5 text-xs rounded-md">
             <a href="/" target="_blank" rel="noopener noreferrer">
-              building
+             beta
             </a>
           </Badge>
         </div>
@@ -34,10 +34,7 @@ const Project = () => {
             {" "}
             Trello-like Project Management app
           </p>
-          <Badge
-            asChild
-            className="bg-green-700 px-2 py-0.2 text-xs rounded-md"
-          >
+          <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5 text-xs rounded-md">
             <a
               href="https://taskify-wine-gamma.vercel.app/"
               target="_blank"
@@ -60,10 +57,7 @@ const Project = () => {
             {" "}
             Youtube video looping App
           </p>
-          <Badge
-            asChild
-            className="bg-green-700 px-2 py-0.2 text-xs rounded-md"
-          >
+       <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5 text-xs rounded-md">
             <a
               href="https://youloop-fawn.vercel.app/"
               target="_blank"
