@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Marcellus } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -23,7 +24,14 @@ export default function RootLayout({
       <body
         className={`${marcellus.variable} antialiased`}
       >
-        {children}
+         <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
       </body>
     </html>
   );

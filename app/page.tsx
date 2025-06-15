@@ -3,6 +3,7 @@
 import Career from "@/components/career/Career";
 import Education from "@/components/education/Education";
 import Project from "@/components/project/Project";
+import { ModeToggle } from "@/components/toggle";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -22,16 +23,17 @@ export default function Home() {
                 </h1>
               </div>
               <div className="flex items-center justify-between">
-                <h2 className="text-green-900 text-sm italic ">
+                <h2 className="text-green-900 text-sm italic dark:text-green-400">
                   A TypeScript Developer
                 </h2>
-                <div>
+                <div className="flex items-center">
                   <a
                     href="https://github.com/abiatgit"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="crusor-pointer"
                   >
-                    <Button variant="ghost">
+                    <Button variant="ghost" className="cursor-pointer">
                       <FaGithub />
                     </Button>
                   </a>
@@ -41,23 +43,24 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button variant="ghost">
+                    <Button variant="ghost" className="cursor-pointer">
                       <FaLinkedin />
                     </Button>
                   </a>
                    <a
-                    href="https://www.linkedin.com/in/abigeorge/"
+                    href="https://x.com/Abi_George_"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button variant="ghost">
+                    <Button variant="ghost" className="cursor-pointer">
                       <FaXTwitter/>
                     </Button>
                   </a>
+                  <ModeToggle/>
                 </div>
               </div>
               <Separator />
-              <p className="text-sm font-normal leading-relaxed tracking-tight text-muted-foreground max-w-2xl 2xl:mt-2">
+              <p className="text-sm font-normal leading-relaxed tracking-tight text-muted-foreground max-w-2xl 2xl:mt-2 dark:text-white">
                 I&apos;m a Software Engineer Based in Belfast, Northern
                 Ireland. Always curious about finding magic in both code and
                 life.
@@ -65,19 +68,19 @@ export default function Home() {
             </div>
             <div className="flex flex-row gap-3">
               <div className="2xl:mt-3 ">
-                <h1 className="text-lg my-3 text-gray-500">Career History</h1>
+                <h1 className="text-lg my-3 text-gray-500 dark:text-white">Career History</h1>
 
                 <Career />
               </div>
             </div>
              <div className="flex flex-row gap-3">
               <div className="2xl:mt-3 ">
-                <h1 className="text-lg my-3 text-gray-500">Projects</h1>
+                <h1 className="text-lg my-3 text-gray-500 dark:text-white">Projects</h1>
                 <Project />
               </div>
             </div>
              <div className="2xl:mt-3 ">
-              <h1 className="text-lg my-3 text-gray-500">Education</h1>
+              <h1 className="text-lg my-3 text-gray-500 dark:text-white">Education</h1>
               <Education />
             </div>
            
@@ -85,7 +88,7 @@ export default function Home() {
             <div className="flex items-center justify-between gap-1 2xl:mt-9 2xl:mb-21">
               <Separator className="bg-green-700" />
               <a href="mailto:info.abigeorge@gmail.com">
-                <p className="text-sm text-gray-900 font-light italic ">
+                <p className="text-sm text-gray-900 font-light italic dark:text-white ">
                   info.abigeorge@gmail.com
                 </p>
               </a>

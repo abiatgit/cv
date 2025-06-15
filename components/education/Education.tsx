@@ -5,37 +5,44 @@ const Education = () => {
     <div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600">
+          <p className="text-sm font-bold text-gray-600 dark:text-white">
             BBA{" Computer Science"}{" "}
           </p>
 
           <div className="w-px h-3 bg-gray-300" />
-          
-            <a href="https://annamalaiuniversity.ac.in/"  target="_blank" rel="noopener noreferrer">
-          <p className="text-sm font-bold text-gray-600">
-   
-            Annamalai University
-          </p>
+
+          <a
+            href="https://annamalaiuniversity.ac.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="text-sm font-bold text-gray-600 dark:text-white">
+              Annamalai University
+            </p>
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 font-light italic">
+        <p className="text-sm text-gray-500 font-light italic dark:text-white">
           April 2010 - March 2013
         </p>
       </div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600">
+          <p className="text-sm font-bold text-gray-600 dark:text-white">
             Multimedia {"Diploma"}{" "}
           </p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <a href="https://arenatrivandrum.com/index"  target="_blank" rel="noopener noreferrer">
-            <p className="text-sm font-bold text-gray-600"> Arena Animation</p>
+          <a
+            href="https://arenatrivandrum.com/index"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="text-sm font-bold text-gray-600 dark:text-white"> Arena Animation</p>
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 font-light italic">
+        <p className="text-sm text-gray-500 font-light italic dark:text-white">
           Feb 2008 - March 2010
         </p>
       </div>

@@ -6,10 +6,10 @@ const Project = () => {
     <div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600">CareMatters</p>
+          <p className="text-sm font-bold text-gray-600 dark:text-white">CareMatters</p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <p className="text-sm font-bold text-gray-600">
+          <p className="text-sm font-bold text-gray-600 dark:text-white">
             {" "}
             CareHome Management App
           </p>
@@ -20,17 +20,17 @@ const Project = () => {
           </Badge>
         </div>
 
-        <p className="text-sm text-gray-500 font-light italic">
+        <p className="text-sm text-gray-500 font-light italic dark:text-white">
           Next Js , Typescript , Prisma , Supabase , Tailwind CSS , Auth.js ,
           Shad cn , Zustand
         </p>
       </div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600">taskify</p>
+          <p className="text-sm font-bold text-gray-600 dark:text-white">taskify</p>
 
           <div className="w-px h-3 bg-gray-300"/>
-          <p className="text-sm font-bold text-gray-600">
+          <p className="text-sm font-bold text-gray-600 dark:text-white">
             {" "}
             Trello-like Project Management app
           </p>
@@ -44,16 +44,16 @@ const Project = () => {
             </a>
           </Badge>
         </div>
-        <p className="text-sm text-gray-500 font-light italic">
+        <p className="text-sm text-gray-500 font-light italic dark:text-white">
           Next Js , Typescript , Tailwind CSS , Clerk , Prisma , Stripe , MySQL
         </p>
       </div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600">get ƪooped</p>
+          <p className="text-sm font-bold text-gray-600 dark:text-white">get ƪooped</p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <p className="text-sm font-bold text-gray-600">
+          <p className="text-sm font-bold text-gray-600 dark:text-white">
             {" "}
             Youtube video looping App
           </p>
@@ -67,7 +67,7 @@ const Project = () => {
             </a>
           </Badge>
         </div>
-        <p className="text-sm text-gray-500 font-light italic">
+        <p className="text-sm text-gray-500 font-light italic dark:text-white">
           Next Js , Typescript , Tailwind CSS
         </p>
       </div>
