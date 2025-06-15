@@ -14,7 +14,7 @@ const Project = () => {
             CareHome Management App
           </p>
           <Badge  className="bg-rose-100 text-rose-600 hover:bg-rose-300 px-2 py-0.5 text-xs rounded-md">
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://carematters.vercel.app/" target="_blank" rel="noopener noreferrer">
              beta
             </a>
           </Badge>
@@ -57,7 +57,7 @@ const Project = () => {
             {" "}
             Youtube video looping App
           </p>
-       <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5 text-xs rounded-md">
+       <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5  text-xs rounded-md">
             <a
               href="https://youloop-fawn.vercel.app/"
               target="_blank"
