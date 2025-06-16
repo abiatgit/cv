@@ -65,7 +65,7 @@ const Career = () => {
       </div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600 dark:text-white">Web Designer</p>
+          <p className="text-sm font-bold text-gray-600 dark:text-neutral-100">Web Designer</p>
 
           <div className="w-px h-3 bg-gray-300" />
 

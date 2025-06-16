@@ -33,7 +33,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="crusor-pointer"
                   >
-                    <Button variant="ghost" className="cursor-pointer">
+                    <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
                       <FaGithub />
                     </Button>
                   </a>
@@ -43,7 +43,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button variant="ghost" className="cursor-pointer">
+                    <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
                       <FaLinkedin />
                     </Button>
                   </a>
@@ -52,7 +52,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button variant="ghost" className="cursor-pointer">
+                  <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
                       <FaXTwitter/>
                     </Button>
                   </a>
