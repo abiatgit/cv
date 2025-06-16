@@ -13,9 +13,9 @@ const Project = () => {
             {" "}
             CareHome Management App
           </p>
-          <Badge  className="bg-rose-100 text-rose-600 hover:bg-rose-300 px-2 py-0.5 text-xs rounded-md">
+          <Badge  className="bg-blue-100 text-blue-600 hover:bg-blue-300 hover:text-blue-900 px-2 py-0.5 text-xs rounded-md">
             <a href="https://carematters.vercel.app/" target="_blank" rel="noopener noreferrer">
-             beta
+             Beta
             </a>
           </Badge>
         </div>
@@ -34,13 +34,13 @@ const Project = () => {
             {" "}
             Trello-like Project Management app
           </p>
-          <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5 text-xs rounded-md">
+          <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 hover:text-emerald-900 px-2 py-0.5 text-xs rounded-md">
             <a
               href="https://taskify-wine-gamma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              live
+              Live
             </a>
           </Badge>
         </div>
@@ -57,13 +57,13 @@ const Project = () => {
             {" "}
             Youtube video looping App
           </p>
-       <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5  text-xs rounded-md">
+       <Badge  className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 px-2 py-0.5 hover:text-emerald-900  text-xs rounded-md">
             <a
               href="https://youloop-fawn.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              live
+              Live
             </a>
           </Badge>
         </div>
