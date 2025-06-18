@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex  flex-col items-start  mx-5">
             <div className="flex  flex-col gap-2  ">
               <div className="flex items-center justify-between">
-                <h1 className="text-3xl md:text-5xl max-w-2xl tracking-tighter  font-light">
+                <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter  font-light">
                   Abi George
                   {/* <div className="w-full h-px my-4 bg-[radial-gradient(circle,_#d1d5db_1px,_transparent_1px)] [background-size:7px_1px]" /> */}
                 </h1>
