@@ -3,9 +3,9 @@ import React from "react";
 const Education = () => {
   return (
     <div>
-      <div className="my-2">
+      <div>
         <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-white">
             BBA{" Computer Science"}{" "}
           </p>
 
@@ -16,19 +16,19 @@ const Education = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-sm font-bold text-gray-600 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-white">
               Annamalai University
             </p>
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 font-light italic dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-white">
           April 2010 - March 2013
         </p>
       </div>
-      <div className="my-2">
-        <div className="flex gap-2 items-center">
-          <p className="text-sm font-bold text-gray-600 dark:text-white">
+      <div className="">
+        <div className="flex gap-2  items-center">
+         <p className=" font-medium text-gray-500 dark:text-white">
             Multimedia {"Diploma"}{" "}
           </p>
 
@@ -38,11 +38,11 @@ const Education = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-sm font-bold text-gray-600 dark:text-white"> Arena Animation</p>
+          <p className=" font-medium text-gray-500 dark:text-white"> Arena Animation</p>
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 font-light italic dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-white">
           Feb 2008 - March 2010
         </p>
       </div>

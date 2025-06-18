@@ -1,13 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Marcellus } from "next/font/google";
+// import { Marcellus } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  variable: "--font-marcellus",
-  weight: "400", // specify weight if needed
-});
+import { Lato } from 'next/font/google'
+ 
+
+const lato = Lato({
+  weight: ['400', '700','300'], // add weights as needed
+  subsets: ['latin'],
+})
+
+// const marcellus = Marcellus({
+//   subsets: ["latin"],
+//   variable: "--font-marcellus",
+//   weight: "400", // specify weight if needed
+// });
 
 export const metadata: Metadata = {
   title: "Abi Geroge",
@@ -22,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${marcellus.variable} antialiased`}
+       className={lato.className}
       >
          <ThemeProvider
             attribute="class"

@@ -1,4 +1,3 @@
-
 "use client";
 import Career from "@/components/career/Career";
 import Education from "@/components/education/Education";
@@ -13,19 +12,23 @@ export default function Home() {
   return (
     <div className="w-full">
       <div className="container mx-auto ">
-        <div className={" mt-10 flex gap-8 items-center flex-col"}>
+        <div className={" 2xl:mt-10 mt-5 flex gap-8 items-center flex-col"}>
           <div className="flex  flex-col items-start  mx-5">
             <div className="flex  flex-col gap-2  ">
               <div className="flex items-center justify-between">
-                <h1 className="text-3xl md:text-5xl max-w-2xl tracking-tighter  font-regular">
-                  abi george
+                <h1 className="text-3xl md:text-5xl max-w-2xl tracking-tighter  font-light">
+                  Abi George
                   {/* <div className="w-full h-px my-4 bg-[radial-gradient(circle,_#d1d5db_1px,_transparent_1px)] [background-size:7px_1px]" /> */}
                 </h1>
               </div>
               <div className="flex items-center justify-between">
-                <h2 className="text-green-900 text-sm italic dark:text-green-400">
-                  A TypeScript Developer
+                <h2 className="text-green-900 font-normal text-sm italic dark:text-green-400 flex items-center space-x-2">
+                  {/* <span>A TypeScript Developer</span> */}
+                  <span>A Full-Stack Developer</span>
+                  {/* <span className="text-green-900">|</span>
+                  <span>AI enthusiast</span> */}
                 </h2>
+
                 <div className="flex items-center">
                   <a
                     href="https://github.com/abiatgit"
@@ -33,7 +36,10 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="crusor-pointer"
                   >
-                    <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
+                    <Button
+                      variant="ghost"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                    >
                       <FaGithub />
                     </Button>
                   </a>
@@ -43,57 +49,65 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
+                    <Button
+                      variant="ghost"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                    >
                       <FaLinkedin />
                     </Button>
                   </a>
-                   <a
+                  <a
                     href="https://x.com/Abi_George_"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                  <Button variant="ghost" className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50">
-                      <FaXTwitter/>
+                    <Button
+                      variant="ghost"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                    >
+                      <FaXTwitter />
                     </Button>
                   </a>
-                  <ModeToggle/>
+                  <ModeToggle />
                 </div>
               </div>
-              <Separator />
-              <p className="text-sm font-normal leading-relaxed tracking-tight text-muted-foreground max-w-2xl 2xl:mt-2 dark:text-white">
-                I&apos;m a Software Engineer Based in Belfast, Northern
-                Ireland. Always curious about finding magic in both code and
-                life.
+              <Separator className="dark:bg-gray-500 bg-gray-200" />
+              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-white">
+                I&apos;m a Software Engineer , AI enthusiast Based in Belfast,
+                Northern Ireland. Always curious about finding magic in both
+                code and life.
               </p>
             </div>
-            <div className="flex flex-row gap-3">
-              <div className="2xl:mt-3 ">
-                <h1 className="text-lg my-3 text-gray-500 dark:text-white">Career History</h1>
 
-                <Career />
-              </div>
+            <div className="my-2 md:my-3  2xl:5">
+              <h1 className="font-medium  text-gray-600 dark:text-white ">
+                Career History
+              </h1>
             </div>
-             <div className="flex flex-row gap-3">
-              <div className="2xl:mt-3 ">
-                <h1 className="text-lg my-3 text-gray-500 dark:text-white">Projects</h1>
-                <Project />
-              </div>
-            </div>
-             <div className="2xl:mt-3 ">
-              <h1 className="text-lg my-3 text-gray-500 dark:text-white">Education</h1>
-              <Education />
-            </div>
-           
+            <Career />
 
-            <div className="flex items-center justify-between gap-1 2xl:mt-9 2xl:mb-21">
-              <Separator className="bg-green-700" />
-              <a href="mailto:info.abigeorge@gmail.com">
-                <p className="text-sm text-gray-900 font-light italic dark:text-white ">
+            <div className="my-2 md:my-3  2xl:5">
+              <h1 className="font-medium   text-gray-600 dark:text-white">
+                Projects
+              </h1>
+            </div>
+            <Project />
+
+            <div className="my-2 md:my-3  2xl:5">
+              <h1 className="font-medium  text-gray-600 dark:text-white">
+                Education
+              </h1>
+            </div>
+            <Education />
+
+            <div className="flex justify-end items-start gap-1 mt-5 2xl:my-9">
+              <a href="mailto:info.abigeorge@gmail.com" className="text-right cursor-pointer">
+                <Separator className="bg-gray-200 dark:bg-gray-500" />
+                <p className="text-gray-600 text-sm font-extralight italic dark:text-gray-400">
                   info.abigeorge@gmail.com
                 </p>
               </a>
             </div>
-          
           </div>
         </div>
       </div>
