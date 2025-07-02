@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <div className="container mx-auto ">
         <div className={" 2xl:mt-10 mt-5 flex gap-8 items-center flex-col"}>
           <div className="flex  flex-col items-start  mx-5">
-            <div className="flex  flex-col gap-2  ">
+            <div className="flex  flex-col gap-1  ">
               <div className="flex items-center justify-between">
                 <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter  font-light">
                   Abi George
@@ -23,10 +24,9 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-between">
                 <h2 className="text-green-900 font-normal text-sm italic dark:text-green-400 flex items-center space-x-2">
-                  {/* <span>A TypeScript Developer</span> */}
+
                   <span>A Full-Stack Developer</span>
-                  {/* <span className="text-green-900">|</span>
-                  <span>AI enthusiast</span> */}
+
                 </h2>
 
                 <div className="flex items-center">
@@ -43,7 +43,6 @@ export default function Home() {
                       <FaGithub />
                     </Button>
                   </a>
-
                   <a
                     href="https://www.linkedin.com/in/abigeorge/"
                     target="_blank"
@@ -56,6 +55,7 @@ export default function Home() {
                       <FaLinkedin />
                     </Button>
                   </a>
+             
                   <a
                     href="https://x.com/Abi_George_"
                     target="_blank"
@@ -66,6 +66,18 @@ export default function Home() {
                       className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
                     >
                       <FaXTwitter />
+                    </Button>
+                  </a>
+                  <a
+                    href="https://leetcode.com/u/contactabisgeorge/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      variant="ghost"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                    >
+                  <TbBrandLeetcode />
                     </Button>
                   </a>
                   <ModeToggle />
