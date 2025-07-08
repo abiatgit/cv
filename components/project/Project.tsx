@@ -6,12 +6,12 @@ const Project = () => {
     <div>
       <div>
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             CareMatters
           </p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             {" "}
             CareHome Management SaaS
           </p>
@@ -26,17 +26,17 @@ const Project = () => {
           </Badge>
         </div>
 
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           Next Js , Typescript , Prisma , Supabase , Tailwind CSS , Auth.js ,
           Shad cn , Zustand
         </p>
       </div>
       <div className="my-2">
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">Taskify</p>
+          <p className=" font-medium text-gray-500 dark:text-gray-400">Taskify</p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             {" "}
             Trello-like Project Management App
           </p>
@@ -50,18 +50,18 @@ const Project = () => {
             </a>
           </Badge>
         </div>
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           Next Js , Typescript , Tailwind CSS , Clerk , Prisma , Stripe , MySQL
         </p>
       </div>
       <div>
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             Get ƪooped
           </p>
 
           <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             {" "}
             Youtube video looping App
           </p>
@@ -75,7 +75,7 @@ const Project = () => {
             </a>
           </Badge>
         </div>
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           Next Js , Typescript , Tailwind CSS
         </p>
       </div>

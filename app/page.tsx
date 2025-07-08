@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex  flex-col items-start  mx-5">
             <div className="flex  flex-col gap-1  ">
               <div className="flex items-center justify-between">
-                <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter  font-light">
+                <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter text-gray-600 dark:text-gray-400 font-light">
                   Abi George
                   {/* <div className="w-full h-px my-4 bg-[radial-gradient(circle,_#d1d5db_1px,_transparent_1px)] [background-size:7px_1px]" /> */}
                 </h1>
@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
               </div>
               <Separator className="dark:bg-gray-500 bg-gray-200" />
-              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-white">
+              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-gray-400">
                 I&apos;m a Software Engineer , AI enthusiast Based in Belfast,
                 Northern Ireland. Always curious about finding magic in both
                 code and life.
@@ -92,21 +92,21 @@ export default function Home() {
             </div>
 
             <div className="my-2 md:my-3  2xl:5">
-              <h1 className="font-medium  text-gray-600 dark:text-white ">
+              <h1 className="font-medium  text-gray-600 dark:text-gray-400 ">
                 Career History
               </h1>
             </div>
             <Career />
 
             <div className="my-2 md:my-3  2xl:5">
-              <h1 className="font-medium   text-gray-600 dark:text-white">
+              <h1 className="font-medium   text-gray-600 dark:text-gray-400">
                 Projects
               </h1>
             </div>
             <Project />
 
             <div className="my-2 md:my-3  2xl:5">
-              <h1 className="font-medium  text-gray-600 dark:text-white">
+              <h1 className="font-medium  text-gray-600 dark:text-gray-400">
                 Education
               </h1>
             </div>

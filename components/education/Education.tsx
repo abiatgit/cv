@@ -5,7 +5,7 @@ const Education = () => {
     <div>
       <div>
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             BBA{" Computer Science"}{" "}
           </p>
 
@@ -16,19 +16,19 @@ const Education = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
               Annamalai University
             </p>
           </a>
         </div>
 
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           April 2010 - March 2013
         </p>
       </div>
       <div className="">
         <div className="flex gap-2  items-center">
-         <p className=" font-medium text-gray-500 dark:text-white">
+         <p className=" font-medium text-gray-500 dark:text-gray-400">
             Multimedia {"Diploma"}{" "}
           </p>
 
@@ -38,11 +38,11 @@ const Education = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <p className=" font-medium text-gray-500 dark:text-white"> Arena Animation</p>
+          <p className=" font-medium text-gray-500 dark:text-gray-400"> Arena Animation</p>
           </a>
         </div>
 
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           Feb 2008 - March 2010
         </p>
       </div>

@@ -2,31 +2,31 @@ import React from "react";
 
 const Career = () => {
   return (
-    <div>
-      <div className=" ">
+    <div >
+      <div className="dark:text-gray-400 ">
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             Software Engineer
           </p>
 
-          <div className="w-px h-3 bg-gray-300" />
+          <div className="w-px h-3 bg-gray-300 dark:text-gray-400" />
           <a
             href="https://www.fifthside.studio/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className=" font-medium text-gray-500 dark:text-white">
+            <p className=" font-medium text-gray-500 dark:text-gray-400">
               5th Side Studio
             </p>
           </a>
         </div>
-        <p className=" text-gray-500 font-light dark:text-white">
+        <p className=" text-gray-500 font-light dark:text-gray-400">
           April 2024 - Present
         </p>
       </div>
       <div className="">
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             Full-stack Developer{" "}
           </p>
 
@@ -36,18 +36,18 @@ const Career = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className=" font-medium text-gray-500 dark:text-white">
+            <p className=" font-medium text-gray-500 dark:text-gray-400">
               Workceptive Pvt. Ltd.
             </p>
           </a>
         </div>
-         <p className=" text-gray-600 font-light dark:text-white">
+         <p className=" text-gray-600 font-light dark:text-gray-400">
           Sep 2023 - Feb 2024
         </p>
       </div>
       <div className="">
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             Senior Support Worker
           </p>
 
@@ -57,19 +57,19 @@ const Career = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className=" font-medium text-gray-500 dark:text-white">
+            <p className=" font-medium text-gray-500 dark:text-gray-400">
               Camphill Community
             </p>
           </a>
         </div>
 
-       <p className=" text-gray-500 font-light dark:text-white">
+       <p className=" text-gray-500 font-light dark:text-gray-400">
           Jan 2019 - June 2022
         </p>
       </div>
       <div className="">
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-white">
+          <p className=" font-medium text-gray-500 dark:text-gray-400">
             Web Designer
           </p>
 
@@ -80,14 +80,14 @@ const Career = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className=" font-medium text-gray-500 dark:text-white">
+            <p className=" font-medium text-gray-500 dark:text-gray-400">
               Planet Media
             </p>
           </a>
         </div>
 
        
-       <p className=" text-gray-500 font-light dark:text-white">
+       <p className=" text-gray-500 font-light dark:text-gray-400">
           June 2013 - Sep 2018
         </p>
       </div>
