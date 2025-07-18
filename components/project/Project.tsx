@@ -7,13 +7,13 @@ const Project = () => {
       <div>
         <div className="flex gap-2 items-center">
           <p className=" font-medium text-gray-500 dark:text-gray-400">
-            CareMatters
+            CareO
           </p>
 
           <div className="w-px h-3 bg-gray-300" />
           <p className=" font-medium text-gray-500 dark:text-gray-400">
             {" "}
-            CareHome Management SaaS
+            Care Management App
           </p>
           <Badge className="bg-blue-100 text-blue-600 font-medium hover:bg-blue-300 hover:text-blue-900 px-2 py-0.5 text-xs rounded-md">
             <a
@@ -27,34 +27,33 @@ const Project = () => {
         </div>
 
         <p className=" text-gray-500 font-light dark:text-gray-400">
-          Next Js , Typescript , Prisma , Supabase , Tailwind CSS , Auth.js ,
-          Shad cn , Zustand
+          CareO is an AI-powered care management platform that makes running care homes easier. It improves communication, reduces paperwork, and helps staff focus more on giving quality care. By handling routine tasks and offering smart insights, CareO supports teams in providing better, more compassionate care.
         </p>
       </div>
-      <div className="my-2">
-        <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-gray-400">Taskify</p>
+        {/* <div className="my-2">
+          <div className="flex gap-2 items-center">
+            <p className=" font-medium text-gray-500 dark:text-gray-400">Taskify</p>
 
-          <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-gray-400">
-            {" "}
-            Trello-like Project Management App
+            <div className="w-px h-3 bg-gray-300" />
+            <p className=" font-medium text-gray-500 dark:text-gray-400">
+              {" "}
+              Trello-like Project Management App
+            </p>
+            <Badge className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 hover:text-emerald-900 px-2 py-0.5 text-xs font-medium rounded-md">
+              <a
+                href="https://taskify-wine-gamma.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </Badge>
+          </div>
+          <p className=" text-gray-500 font-light dark:text-gray-400">
+            Next Js , Typescript , Tailwind CSS , Clerk , Prisma , Stripe , MySQL
           </p>
-          <Badge className="bg-emerald-100 text-emerald-600 hover:bg-emerald-300 hover:text-emerald-900 px-2 py-0.5 text-xs font-medium rounded-md">
-            <a
-              href="https://taskify-wine-gamma.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live
-            </a>
-          </Badge>
-        </div>
-        <p className=" text-gray-500 font-light dark:text-gray-400">
-          Next Js , Typescript , Tailwind CSS , Clerk , Prisma , Stripe , MySQL
-        </p>
-      </div>
-      <div>
+        </div> */}
+      {/* <div>
         <div className="flex gap-2 items-center">
           <p className=" font-medium text-gray-500 dark:text-gray-400">
             Get ƪooped
@@ -78,7 +77,7 @@ const Project = () => {
         <p className=" text-gray-500 font-light dark:text-gray-400">
           Next Js , Typescript , Tailwind CSS
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

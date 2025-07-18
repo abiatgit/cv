@@ -45,7 +45,7 @@ const Career = () => {
           Sep 2023 - Feb 2024
         </p>
       </div>
-      <div className="">
+      {/* <div className="">
         <div className="flex gap-2 items-center">
           <p className=" font-medium text-gray-500 dark:text-gray-400">
             Senior Support Worker
@@ -66,7 +66,7 @@ const Career = () => {
        <p className=" text-gray-500 font-light dark:text-gray-400">
           Jan 2019 - June 2022
         </p>
-      </div>
+      </div> */}
       <div className="">
         <div className="flex gap-2 items-center">
           <p className=" font-medium text-gray-500 dark:text-gray-400">
