@@ -17,13 +17,13 @@ export default function Home() {
           <div className="flex flex-col items-start w-full max-w-2xl">
             <div className="flex  flex-col gap-1  ">
               <div className="flex items-center justify-between">
-                <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter text-gray-600 dark:text-gray-400 font-light">
+                <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter text-gray-600 dark:text-gray-100 font-light">
                   Abi George
                   {/* <div className="w-full h-px my-4 bg-[radial-gradient(circle,_#d1d5db_1px,_transparent_1px)] [background-size:7px_1px]" /> */}
                 </h1>
               </div>
               <div className="flex items-center justify-between">
-                <h2 className="text-green-900 font-normal text-sm italic dark:text-green-400 flex items-center space-x-2">
+                <h2 className="text-green-900 font-normal text-sm italic dark:text-green-300 flex items-center space-x-2">
 
                   <span>Software Engineer</span>
 
@@ -38,7 +38,7 @@ export default function Home() {
                   >
                     <Button
                       variant="ghost"
-                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:text-gray-300 dark:hover:text-white"
                     >
                       <FaGithub />
                     </Button>
@@ -50,7 +50,7 @@ export default function Home() {
                   >
                     <Button
                       variant="ghost"
-                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:text-gray-300 dark:hover:text-white"
                     >
                       <FaLinkedin />
                     </Button>
@@ -63,7 +63,7 @@ export default function Home() {
                   >
                     <Button
                       variant="ghost"
-                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:hover:text-neutral-50"
+                      className="cursor-pointer text-zinc-500 hover:text-zinc-900 dark:text-gray-300 dark:hover:text-white"
                     >
                       <FaXTwitter />
                     </Button>
@@ -72,8 +72,8 @@ export default function Home() {
                   <ModeToggle />
                 </div>
               </div>
-              <Separator className="dark:bg-gray-500 bg-gray-200" />
-              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-gray-400">
+              <Separator className="dark:bg-gray-600 bg-gray-200" />
+              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-gray-200">
                 I&apos;m a Software Engineer , AI enthusiast Based in Belfast,
                 Northern Ireland. Always curious about finding magic in both
                 code and life.
@@ -81,14 +81,14 @@ export default function Home() {
             </div>
 
             <div className="my-2 md:my-3  2xl:5">
-              <h1 className="font-medium  text-gray-600 dark:text-gray-400 ">
+              <h1 className="font-medium  text-gray-600 dark:text-gray-100 ">
                 Career History
               </h1>
             </div>
             <Career />
 
             <div className="my-2 md:my-3  2xl:5">
-              <h1 className="font-medium   text-gray-600 dark:text-gray-400">
+              <h1 className="font-medium   text-gray-600 dark:text-gray-100">
                 Project
               </h1>
             </div>
@@ -103,8 +103,8 @@ export default function Home() {
 
             <div className="flex justify-end items-start gap-1 mt-5 2xl:my-9">
               <a href="mailto:info.abigeorge@gmail.com" className="text-right cursor-pointer">
-                <Separator className="bg-gray-200 dark:bg-gray-500" />
-                <p className="text-gray-600 text-sm font-extralight italic dark:text-gray-400">
+                <Separator className="bg-gray-200 dark:bg-gray-600" />
+                <p className="text-gray-600 text-sm font-extralight italic dark:text-gray-200">
                   info.abigeorge@gmail.com
                 </p>
               </a>

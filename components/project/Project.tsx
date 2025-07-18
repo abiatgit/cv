@@ -6,12 +6,12 @@ const Project = () => {
     <div>
       <div>
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-gray-400">
+          <p className=" font-medium text-gray-500 dark:text-gray-200">
             CareO
           </p>
 
-          <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-gray-400">
+          <div className="w-px h-3 bg-gray-300 dark:bg-gray-600" />
+          <p className=" font-medium text-gray-500 dark:text-gray-200">
             {" "}
             Care Management App
           </p>
@@ -26,16 +26,16 @@ const Project = () => {
           </Badge>
         </div>
 
-        <p className=" text-gray-500 font-light dark:text-gray-400">
+        <p className=" text-gray-500 font-light dark:text-gray-300">
           CareO is an AI-powered care management platform that makes running care homes easier. It improves communication, reduces paperwork, and helps staff focus more on giving quality care. By handling routine tasks and offering smart insights, CareO supports teams in providing better, more compassionate care.
         </p>
       </div>
         {/* <div className="my-2">
           <div className="flex gap-2 items-center">
-            <p className=" font-medium text-gray-500 dark:text-gray-400">Taskify</p>
+            <p className=" font-medium text-gray-500 dark:text-gray-200">Taskify</p>
 
-            <div className="w-px h-3 bg-gray-300" />
-            <p className=" font-medium text-gray-500 dark:text-gray-400">
+            <div className="w-px h-3 bg-gray-300 dark:bg-gray-600" />
+            <p className=" font-medium text-gray-500 dark:text-gray-200">
               {" "}
               Trello-like Project Management App
             </p>
@@ -49,18 +49,18 @@ const Project = () => {
               </a>
             </Badge>
           </div>
-          <p className=" text-gray-500 font-light dark:text-gray-400">
+          <p className=" text-gray-500 font-light dark:text-gray-300">
             Next Js , Typescript , Tailwind CSS , Clerk , Prisma , Stripe , MySQL
           </p>
         </div> */}
       {/* <div>
         <div className="flex gap-2 items-center">
-          <p className=" font-medium text-gray-500 dark:text-gray-400">
+          <p className=" font-medium text-gray-500 dark:text-gray-200">
             Get ƪooped
           </p>
 
-          <div className="w-px h-3 bg-gray-300" />
-          <p className=" font-medium text-gray-500 dark:text-gray-400">
+          <div className="w-px h-3 bg-gray-300 dark:bg-gray-600" />
+          <p className=" font-medium text-gray-500 dark:text-gray-200">
             {" "}
             Youtube video looping App
           </p>
@@ -74,7 +74,7 @@ const Project = () => {
             </a>
           </Badge>
         </div>
-        <p className=" text-gray-500 font-light dark:text-gray-400">
+        <p className=" text-gray-500 font-light dark:text-gray-300">
           Next Js , Typescript , Tailwind CSS
         </p>
       </div> */}
