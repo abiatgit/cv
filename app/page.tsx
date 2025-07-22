@@ -73,7 +73,7 @@ export default function Home() {
                 </div>
               </div>
               <Separator className="dark:bg-gray-600 bg-gray-200" />
-              <p className=" font-medium leading-relaxed tracking-tight text-gray-500 max-w-2xl 2xl:mt-2 dark:text-gray-200">
+              <p className=" text-gray-500 font-light dark:text-gray-300">
                 I&apos;m a Software Engineer , AI enthusiast Based in Belfast,
                 Northern Ireland. Always curious about finding magic in both
                 code and life.

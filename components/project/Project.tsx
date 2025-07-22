@@ -27,7 +27,7 @@ const Project = () => {
         </div>
 
         <p className=" text-gray-500 font-light dark:text-gray-300">
-          CareO is an AI-powered care management platform that makes running care homes easier. It improves communication, reduces paperwork, and helps staff focus more on giving quality care. By handling routine tasks and offering smart insights, CareO supports teams in providing better, more compassionate care.
+          CareO is an AI-powered care management platform that makes running care homes easier. Cut Documenting Time by 50%. More Control. More Peace of Mind.
         </p>
       </div>
         {/* <div className="my-2">
