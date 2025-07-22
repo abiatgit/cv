@@ -101,9 +101,13 @@ export default function Home() {
             </div>
             <Education /> */}
 
-            <div className="flex justify-end items-start gap-1 mt-5 2xl:my-9">
+            <div className="flex flex-col justify-end items-start gap-1 mt-5 2xl:my-9">
+            <p className="text-gray-600 text-xl dark:text-gray-200" style={{fontFamily: '"Dancing Script", "Brush Script MT", cursive', fontWeight: 400, transform: 'rotate(-1deg)', letterSpacing: '0.5px'}}>
+                  Abi George
+                </p>
               <a href="mailto:info.abigeorge@gmail.com" className="text-right cursor-pointer">
                 <Separator className="bg-gray-200 dark:bg-gray-600" />
+          
                 <p className="text-gray-600 text-sm font-extralight italic dark:text-gray-200">
                   info.abigeorge@gmail.com
                 </p>
