@@ -17,7 +17,7 @@ const Project = () => {
           </p>
           <Badge className="bg-blue-100 text-blue-600 font-medium hover:bg-blue-300 hover:text-blue-900 px-2 py-0.5 text-xs rounded-md">
             <a
-              href="https://carematters.vercel.app/"
+              href="https://careo.uk/"
               target="_blank"
               rel="noopener noreferrer"
             >
