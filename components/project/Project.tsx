@@ -27,7 +27,7 @@ const Project = () => {
         </div>
 
         <p className=" text-gray-500 font-light dark:text-gray-300">
-        CareO – All-in-One Cloud Software to Manage Your Entire Care Home in One Place.
+        All-in-One Cloud Software to Manage Your Entire Care Home in One Place.
         </p>
       </div>
         {/* <div className="my-2">
