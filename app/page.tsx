@@ -25,7 +25,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <h2 className="text-green-900 font-normal text-sm italic dark:text-green-300 flex items-center space-x-2">
 
-                  <span>Software Engineer</span>
+                  <span>Software Engineer </span>
 
                 </h2>
 
@@ -76,7 +76,9 @@ export default function Home() {
               <p className=" text-gray-500 font-light dark:text-gray-300">
                 I&apos;m a Software Engineer , AI enthusiast Based in Belfast,
                 Northern Ireland. Always curious about finding magic in both
-                code and life.
+                code and life | <span className="underline underline-red">Building CareO</span>
+
+
               </p>
             </div>
 
@@ -102,7 +104,7 @@ export default function Home() {
             <Education /> */}
 
             <div className="flex flex-col justify-end items-start gap-1 mt-5 2xl:my-9">
-            <p className="text-gray-600 text-xl dark:text-gray-200" style={{fontFamily: '"Dancing Script", "Brush Script MT", cursive', fontWeight: 400, transform: 'rotate(-1deg)', letterSpacing: '0.5px'}}>
+            <p className="text-gray-600 text-xl dark:text-gray-200 font-light"  style={{fontFamily: '"Dancing Script", "Brush Script MT", cursive', fontWeight: 100, transform: 'rotate(deg)', letterSpacing: '1px'}}>
                   Abi George
                 </p>
               <a href="mailto:info.abigeorge@gmail.com" className="text-right cursor-pointer">

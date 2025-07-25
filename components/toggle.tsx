@@ -13,8 +13,19 @@ export function ModeToggle() {
     setTheme(resolvedTheme === "light" ? "dark" : "light");
   };
 
-  // Prevent SSR flash
-  if (!resolvedTheme) return null;
+  // Prevent SSR flash - render placeholder instead of null
+  if (!resolvedTheme) {
+    return (
+      <Button
+        variant="ghost"
+        size="icon"
+        className="group cursor-pointer"
+        disabled
+      >
+        <Sun className="h-[1.2rem] w-[1.2rem] transition-all text-zinc-500" />
+      </Button>
+    );
+  }
 
   return (
     <Button
