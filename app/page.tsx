@@ -134,7 +134,7 @@ export default function Home() {
               </p>
               <Separator className="bg-gray-300 dark:bg-gray-600" />
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Europe/London {currentTime}
+                London {currentTime}
               </p>
             </div>
           </div>
