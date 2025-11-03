@@ -7,14 +7,19 @@ import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 
 export function ModeToggle() {
-  const { resolvedTheme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const clickHandle = () => {
-    setTheme(resolvedTheme === "light" ? "dark" : "light");
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   // Prevent SSR flash - render placeholder instead of null
-  if (!resolvedTheme) {
+  if (!mounted) {
     return (
       <Button
         variant="ghost"
@@ -34,7 +39,7 @@ export function ModeToggle() {
       onClick={clickHandle}
       className="group cursor-pointer"
     >
-      {resolvedTheme === "dark" ? (
+      {theme === "dark" ? (
         <Sun className="h-[1.2rem] w-[1.2rem] transition-all text-zinc-500 group-hover:text-black dark:group-hover:text-white" />
       ) : (
         <Moon className="h-[1.2rem] w-[1.2rem] transition-all text-zinc-500 group-hover:text-black dark:group-hover:text-white" />

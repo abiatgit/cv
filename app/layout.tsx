@@ -3,12 +3,18 @@ import "./globals.css";
 // import { Marcellus } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
-import { Lato } from 'next/font/google'
- 
+import { Lato, Parisienne } from 'next/font/google'
+
 
 const lato = Lato({
   weight: ['400', '700','300'], // add weights as needed
   subsets: ['latin'],
+})
+
+const parisienne = Parisienne({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-signature',
 })
 
 // const marcellus = Marcellus({
@@ -30,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-       className={lato.className}
+       className={`${lato.className} ${parisienne.variable}`}
       >
          <ThemeProvider
             attribute="class"

@@ -10,11 +10,6 @@ const Project = () => {
             CareO
           </p>
 
-          <div className="w-px h-3 bg-gray-300 dark:bg-gray-600" />
-          <p className=" font-medium text-gray-500 dark:text-gray-200">
-            {" "}
-            Care Management App
-          </p>
           <Badge className="bg-blue-100 text-blue-600 font-medium hover:bg-blue-300 hover:text-blue-900 px-2 py-0.5 text-xs rounded-md">
             <a
               href="https://careo.uk/"
