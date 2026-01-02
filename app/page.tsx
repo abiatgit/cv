@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="w-full min-h-screen flex justify-center">
       <div className="container mx-auto max-w-4xl px-8 sm:px-12 md:px-8 relative">
-        <div className="absolute left-4 sm:left-6 md:left-4 top-0 h-full w-px border-l border-dashed border-gray-300 dark:border-gray-700"></div>
+        <div className="absolute left-4 sm:left-6 md:left-4 top-0 bottom-0 w-px border-l border-dashed border-gray-300 dark:border-gray-700"></div>
         <div className="2xl:mt-24 mt-16 flex gap-8 items-center flex-col">
           <div className="flex flex-col items-start w-full max-w-2xl relative">
             <div className="flex  flex-col gap-1 w-full">
@@ -107,8 +107,7 @@ export default function Home() {
                   <ModeToggle />
                 </div>
               </div>
-              <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
-                <Separator className="dark:bg-gray-700 bg-gray-300 border-t border-dashed w-full" />
+              <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] h-px border-t border-dashed border-gray-300 dark:border-gray-700">
               </div>
               <p className=" text-gray-500 font-light dark:text-gray-300 mt-6">
                 I&apos;m a Software Engineer and AI enthusiast based in Belfast,
