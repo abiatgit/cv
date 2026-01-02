@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Project from "@/components/project/Project";
 import { ModeToggle } from "@/components/toggle";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -32,10 +33,11 @@ export default function Home() {
   }, []);
   return (
     <div className="w-full min-h-screen flex justify-center">
-      <div className="container mx-auto max-w-4xl px-6 sm:px-8 md:px-4">
+      <div className="container mx-auto max-w-4xl px-8 sm:px-12 md:px-8 relative">
+        <div className="absolute left-4 sm:left-6 md:left-4 top-0 h-full w-px border-l border-dashed border-gray-300 dark:border-gray-700"></div>
         <div className="2xl:mt-24 mt-16 flex gap-8 items-center flex-col">
-          <div className="flex flex-col items-start w-full max-w-2xl">
-            <div className="flex  flex-col gap-1  ">
+          <div className="flex flex-col items-start w-full max-w-2xl relative">
+            <div className="flex  flex-col gap-1 w-full">
               <div className="flex items-center justify-between">
                 <h1 className="text-3xl md:text-3xl 2xl:text-4xl max-w-2xl tracking-tighter text-gray-600 dark:text-gray-100 font-light">
                   Abi George
@@ -105,7 +107,9 @@ export default function Home() {
                   <ModeToggle />
                 </div>
               </div>
-              <Separator className="dark:bg-gray-600 bg-gray-200" />
+              <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+                <Separator className="dark:bg-gray-700 bg-gray-300 border-t border-dashed w-full" />
+              </div>
               <p className=" text-gray-500 font-light dark:text-gray-300 mt-6">
                 I&apos;m a Software Engineer and AI enthusiast based in Belfast,
                 Northern Ireland. I&apos;m driven by curiosity to find magic in both
@@ -128,14 +132,25 @@ export default function Home() {
             </div>
             <Education /> */}
 
-            <div className="flex flex-col justify-end items-start gap-3 mt-16 mb-12 2xl:my-9">
+            <div className="flex flex-col justify-end items-start gap-3 mt-16 mb-12 2xl:my-9 w-full">
               <p className="text-gray-600 text-base dark:text-gray-200" style={{fontFamily: 'var(--font-signature)', letterSpacing: '2px'}}>
                 Abi George
               </p>
-              <Separator className="bg-gray-300 dark:bg-gray-600" />
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                London {currentTime}
-              </p>
+              <div className="flex items-center justify-between w-full">
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  London {currentTime}
+                </p>
+                <Badge variant="outline" asChild>
+                  <a
+                    href="https://cal.com/abi.george"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+                  >
+                    Book a call
+                  </a>
+                </Badge>
+              </div>
             </div>
           </div>
         </div>
