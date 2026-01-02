@@ -4,8 +4,8 @@ import { Badge } from "../ui/badge";
 const Project = () => {
   return (
     <div>
-      <div>
-        <div className="flex gap-2 items-center">
+      <div className="mb-8 mt-4">
+        <div className="flex gap-2 items-center mb-6">
           <p className=" font-medium text-gray-500 dark:text-gray-200">
             CareO
           </p>
